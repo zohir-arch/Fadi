@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.env
+.venv
+venv/
+.DS_Store
+
+# PyInstaller local build output
+build/
+dist/
+*.spec
+dist153/
+
+# Per-repo mesh identity (generated once by the workflow itself and
+# committed back with -f; never shipped in the template)
+ygg-node/

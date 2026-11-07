@@ -1,0 +1,24 @@
+{
+  "log": { "level": "info" },
+  "inbounds": [
+    {
+      "type": "vmess",
+      "tag": "vmess-in",
+      "listen": "127.0.0.1",
+      "listen_port": 10086,
+      "users": [
+        {
+          "uuid": "9ec8f3be-758e-487f-b057-cb1e1ddf4a9b",
+          "alterId": 0
+        }
+      ],
+      "transport": {
+        "type": "ws",
+        "path": "/taiga"
+      }
+    }
+  ],
+  "outbounds": [
+    { "type": "direct", "tag": "direct" }
+  ]
+}
