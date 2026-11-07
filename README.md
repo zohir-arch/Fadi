@@ -103,7 +103,7 @@ No admin rights. No paid servers. Self-healing.</p>
 <td>
 <table>
 <tr><td><code>remarks</code></td><td><code>IPNET</code></td></tr>
-<tr><td><code>Optional URL</code></td><td><code>{{SUBSCRIPTION_URL}}</code></td></tr>
+<tr><td><code>Optional URL</code></td><td><code>https://raw.githubusercontent.com/zohir-arch/Fadi/main/zayachiy_sled.txt</code></td></tr>
 <tr><td><code>Enable update</code></td><td>✅ ON</td></tr>
 <tr><td><code>Enable automatic update</code></td><td>✅ ON — interval <code>60</code></td></tr>
 </table>
